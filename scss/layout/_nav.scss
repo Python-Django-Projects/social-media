@@ -3,31 +3,29 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    .nav-content {
-        display: -webkit-box;
-        display: -ms-flexbox;
+    box-shadow: 0px 0px 1px 1px #eeee;
+    &-content {
         display: flex;
         height: 100%;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: space-between;
         width: 975px;
+        input[type="text"] {
+            border-radius: 7px;
+            height: 35px;
+            padding: 10px;
+            width: 270px;
+            border: none;
+            background: rgb(239, 239, 239);
+            &:focus {
+                outline: none;
+            }
+        }
+        .nav-icons img {
+            padding: 10px;
+            height: 40px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
     }
-    input[type="text"] {
-        border-radius: 3px;
-        height: 35px;
-        padding: 10px;
-        width: 270px;
-        border: none;
-        background: rgb(239, 239, 239)
-    }
-    input:focus {
-        outline: none;
-    }
-    img{
-        margin-left: 15px;
-    }
-}
+}   
