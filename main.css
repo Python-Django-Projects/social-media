@@ -124,10 +124,14 @@
   height: 24px;
 }
 
+.page-content .post .action .react img:hover {
+  cursor: pointer;
+}
+
 .page-content .post .action p {
-  margin-top: 10px;
   font-weight: 400;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 .page-content .post .action input {
