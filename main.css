@@ -74,7 +74,7 @@
 }
 
 .page-content .post {
-  height: 690px;
+  height: 707px;
   width: 451px;
   border: 1px solid #cfcfcf;
   margin-top: 25px;
@@ -107,11 +107,6 @@
   height: 530px;
 }
 
-.page-content .post .action {
-  height: 100px;
-  margin: 10px 0px 0px 10px;
-}
-
 .page-content .post .action .react {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +115,7 @@
 }
 
 .page-content .post .action .react img {
-  margin: 0px 10px 0px 0px;
+  margin: 10px;
   height: 24px;
 }
 
@@ -129,18 +124,38 @@
 }
 
 .page-content .post .action p {
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
-.page-content .post .action input {
-  margin-top: 10px;
+.page-content .post .comment {
+  border-top: 1px solid #bbb;
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-content .post .comment input[type="text"] {
+  margin: 16px 0px 0px 10px;
   border: none;
   width: 100%;
+  font-size: 15px;
 }
 
-.page-content .post .action input:focus {
+.page-content .post .comment input[type="text"]:focus {
   outline: none;
+}
+
+.page-content .post .comment button {
+  margin: 16px 10px 0px 10px;
+  background: white;
+  font-weight: bold;
+  border: none;
+  color: lightblue;
 }
 /*# sourceMappingURL=main.css.map */
